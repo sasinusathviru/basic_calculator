@@ -19,7 +19,7 @@ int main()
         {
             result = num1 + num2;
         }
-        else if (Ar_op == '-') // Substraction
+        else if (Ar_op == '-') // Subtraction
         {
             result = num1 - num2;
         }
