@@ -1,7 +1,7 @@
 #include <iostream>
 
 int addition(int, int);
-int substraction(int, int);
+int subtraction(int, int);
 int multiplication(int, int);
 int division(int, int);
 
@@ -19,7 +19,7 @@ int main()
     }
     else if (Op == '-')
     {
-        std::cout << substraction(x, y);
+        std::cout << subtraction(x, y);
     }
     else if (Op == '*')
     {
@@ -34,7 +34,7 @@ int addition(int x, int y)
 {
     return x + y;
 }
-int substraction(int x, int y)
+int subtraction(int x, int y)
 {
     return x - y;
 }
